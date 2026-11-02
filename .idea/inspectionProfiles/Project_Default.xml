@@ -1,0 +1,34 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="fastapi" />
+          <option value="uvicorn" />
+          <option value="python-multipart" />
+          <option value="sqlalchemy" />
+          <option value="psycopg2-binary" />
+          <option value="pydantic" />
+          <option value="opencv-python-headless" />
+          <option value="numpy" />
+          <option value="ultralytics" />
+          <option value="torch" />
+          <option value="torchvision" />
+          <option value="pillow" />
+          <option value="motor" />
+          <option value="mongomock-motor" />
+          <option value="httpx" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="mediapipe.solutions.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
